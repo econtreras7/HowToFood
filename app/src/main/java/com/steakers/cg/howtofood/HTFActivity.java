@@ -157,6 +157,7 @@ public class HTFActivity extends ListActivity {
         myIntent.putExtra("extra", Data);
         startActivity(myIntent);
     }
+    //git test
    // @Override
     public void onBackPressed(boolean tr){
         Intent myIntent = new Intent(HTFActivity.this,Start.class);
